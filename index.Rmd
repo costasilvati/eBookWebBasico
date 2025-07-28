@@ -1,19 +1,20 @@
 --- 
 title: "eBook: Desenvolviemtno Web Básico - Front-end"
 author: "Juliana Costa-Silva"
-date: "2025" #"`r Sys.Date()`"
-site: bookdown::bookdown_site
+date: '2025'
+output:
+  pdf_document: default
+  html_document:
+    fig_caption: true
 documentclass: book
-bibliography: [book.bib, packages.bib]
-# url: your book url like https://bookdown.org/yihui/bookdown
-# cover-image: path to the social sharing image like images/cover.jpg
+bibliography:
+- book.bib
+- packages.bib
 description: |
   Este livro foi desenvolvido para alunos de graduação em cursos de Tecnologia da Informação com base no conteúdo necessário para atividades de Desenvolvimento Web Básico e disciplinas que permeiam o tema.
-link-citations: yes
-github-repo: rstudio/bookdown-demo
-output: 
-  html_document: 
-    fig_caption: true
+link-citations: true
+github-repo: "rstudio/bookdown-demo"
+site: bookdown::bookdown_site
 ---
 
 
